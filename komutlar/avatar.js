@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
       url: user.displayAvatarURL({ format: 'png', dynamic: true, size: 4096 })
     },
     footer: {
-      text: "Cowboy Bot",
+      text: "Nether Bot",
       icon_url: client.user.avatarURL({ format: 'png' })
     },
     
